@@ -1,0 +1,10 @@
+gradio
+pymupdf
+chromadb
+sentence-transformers
+requests
+python-dotenv
+pandas
+numpy
+scikit-learn
+tqdm
