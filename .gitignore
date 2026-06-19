@@ -1,0 +1,55 @@
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+/prompt.txt
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Private research documents and datasets
+data/papers/*
+!data/papers/.gitkeep
+data/evaluation/*
+!data/evaluation/.gitkeep
+*.pdf
+
+# Runtime uploads and vector databases
+storage/chroma_db/*
+!storage/chroma_db/.gitkeep
+storage/uploaded_papers/*
+!storage/uploaded_papers/.gitkeep
+
+# Generated outputs
+outputs/results/*
+!outputs/results/.gitkeep
+outputs/screenshots/*
+!outputs/screenshots/.gitkeep
+outputs/logs/*
+!outputs/logs/.gitkeep
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
