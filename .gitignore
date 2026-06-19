@@ -19,6 +19,7 @@ dist/
 .env.*
 !.env.example
 /prompt.txt
+/prompt.md
 *.pem
 *.key
 *.p12
@@ -44,6 +45,8 @@ outputs/results/*
 !outputs/results/.gitkeep
 outputs/screenshots/*
 !outputs/screenshots/.gitkeep
+!outputs/screenshots/ui1.png
+!outputs/screenshots/ui2_qstn_ans_full_view.png
 outputs/logs/*
 !outputs/logs/.gitkeep
 
